@@ -1,0 +1,32 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	- It highlighted the lines that were changed and so focused me on the diffs
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	- You can alwasy go back to a working version to test what caused the crash/bug
+	- Easily find newly added typos
+	- Get back to ideas / directions you had and didn't follow through and may now be relevant again
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	Pros:
+		- Changes are saved in a logical point in time
+		- Easier to track changes
+		- Easier to document the changes
+	Cons:
+		- You may forget to commit for a long time - human error
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	- For coding you sometimes need to commit multiple files together as the change you want to track relates to all files
+	- Google Doc applies constant save and aggregates the changes according to their own algorithm - no control --> no way to find out what's beed saved together
+
+How can you use the commands git log and git diff to view the history of files?
+	- You first follow the log trail
+	- When you get to the file version with the changes you want to track you click q to quit the log
+	- You type in 'git diff ID1 ID2' and compare the files
+
+How might using version control make you more confident to make changes that could break something?
+	- You always have the option to return to a previous version and avoid the bug
+	- You can find the bug easily using diff between the version when the bug was introduced a previous working version
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	- Start coding my Python project using Git
+	- Feel free to explore solution with no worries
