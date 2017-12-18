@@ -8,3 +8,23 @@ How is the staging area different from the working directory and the repository?
 	- It helps to reduce commit size
 	- It gives another option to review what is in the commit
 
+How can you use the staging area to make sure you have one commit per logical change?
+	- When you use the status command you see the list of items to be committed and hence have an overview of the commit.
+	- That way you can review commit contents and see that they "belong" with each other
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	- Testing new functions
+	- Refactoring large portions of the code
+	- Creating a version with different paramters
+
+How do the diagrams help you visualize the branch structure?
+	- It show the flow of commits and branching out map
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	- Merging two branches results in a main branch that is the sum of changes of both merged branches
+	- The diagram is represented the way it does because it shows that path to reach the latest version
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	- Automatic merging saves a lot of time searching for conflicts
+	- Automatic merging helps avoid missing on confilicts
+	- Manual merging is only needed when there is an unresolveable conflict that needs human intervention
